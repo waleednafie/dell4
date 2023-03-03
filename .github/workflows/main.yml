@@ -1,0 +1,8 @@
+wget https://www.otohits.net/dl/OtohitsApp_5068_linux_portable.tar.gz > /dev/null
+mkdir OtohitsApp
+cd OtohitsApp
+echo "/login:5ef35c60-08e3-461f-a3b1-4a16decc5d91" > otohits.ini
+echo "/autoupdate" >> otohits.ini
+tar -xzf ../OtohitsApp_5068_linux_portable.tar.gz
+
+./otohits-app
